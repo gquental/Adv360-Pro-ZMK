@@ -29,7 +29,7 @@
             bindings = <
 &kp EQUAL  &kp N1     &kp N2          &kp N3            &kp N4       &kp N5  &tog 1                                                   &mo 3      &kp N6  &kp N7       &kp N8             &kp N9           &kp N0    &kp MINUS
 &kp TAB    &kp Q      &kp W           &kp E             &kp R        &kp T   &none                                                    &none      &kp Y   &kp U        &kp I              &kp O            &kp P     &kp BSLH
-&kp ESC    &kp A      &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RCTRL J  &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp ESC    &lt 6 A    &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RCTRL J  &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &kp SEMI  &kp SQT
 &kp LSHFT  &lt 4 Z    &kp X           &kp C             &kp V        &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M        &kp COMMA          &kp DOT          &kp FSLH  &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS        &kp LEFT          &kp RIGHT            &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN     &kp UP_ARROW       &kp LBKT         &kp RBKT  &mo 2
             >;
@@ -61,7 +61,7 @@
             display-name = "Mod";
             bindings = <
 &none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans           &none  &none       &none       &none  &none  &none
-&none           &none         &none         &none         &none         &none         &bootloader                                            &bootloader      &none  &none       &none       &none  &none  &none
+&none           &none         &tog 0        &none         &none         &tog 5        &bootloader                                            &bootloader      &none  &none       &none       &none  &none  &none
 &studio_unlock  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &stp STP_BAT     &none  &none       &none       &none  &none  &none
 &none           &none         &none         &none         &macro_ver    &none                             &none      &none                                    &none  &none       &none       &none  &none  &none
 &none           &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG         &bl BL_INC  &bl BL_DEC  &none  &none  &none
@@ -78,24 +78,24 @@
             >;
         };
 
-        extra1 {
-            display-name = "Red";
-            status = "reserved";
+        macos {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans              &trans  &trans                                      &trans  &trans  &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans  &trans                                      &trans  &trans  &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &hm LEFT_COMMAND F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &hm RIGHT_COMMAND J  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans                  &trans      &trans                  &trans  &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans      &trans  &trans  &trans          &trans               &trans  &trans  &trans  &trans
+            >;
         };
 
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Yellow";
-            status = "reserved";
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans           &trans                &trans                 &trans            &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans            &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp EQUAL        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                           &trans                &trans                 &trans            &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                                 &trans                 &trans            &trans             &trans  &trans
+            >;
         };
     };
 };
