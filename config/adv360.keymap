@@ -81,7 +81,7 @@
 
         macos {
             bindings = <
-&trans  &trans  &trans       &trans  &trans              &trans       &trans                                      &trans  &trans  &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans       &trans  &trans              &trans       &trans                                      &mo 3   &trans  &trans               &trans  &trans  &trans  &trans
 &trans  &trans  &hm LG(W) W  &trans  &hm LG(R) R         &hm LG(T) T  &trans                                      &trans  &trans  &trans               &trans  &trans  &trans  &trans
 &trans  &trans  &trans       &trans  &hm LEFT_COMMAND F  &trans       &trans  &trans  &trans      &trans  &trans  &trans  &trans  &hm RIGHT_COMMAND J  &trans  &trans  &trans  &trans
 &trans  &trans  &trans       &trans  &trans              &trans                       &trans      &trans                  &trans  &trans               &trans  &trans  &trans  &trans
