@@ -81,11 +81,11 @@
 
         macos {
             bindings = <
-&trans                            &trans  &trans       &trans  &trans              &trans              &trans                                      &mo 3   &trans               &trans               &trans  &trans                          &trans  &trans
-&trans                            &trans  &hm LG(W) W  &trans  &hm LG(R) R         &hm LG(T) T         &trans                                      &trans  &trans               &trans               &trans  &trans                          &trans  &trans
-&hm LS(LA(LC(LEFT_COMMAND))) ESC  &trans  &trans       &trans  &hm LEFT_COMMAND F  &hm LEFT_CONTROL G  &trans  &trans  &trans      &trans  &trans  &trans  &hm RIGHT_CONTROL H  &hm RIGHT_COMMAND J  &trans  &hm LS(LC(LA(LEFT_COMMAND))) L  &trans  &trans
-&trans                            &trans  &trans       &trans  &trans              &trans                              &trans      &trans                  &trans               &trans               &trans  &trans                          &trans  &trans
-&trans                            &trans  &trans       &trans  &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                       &trans               &trans  &trans                          &trans  &trans
+&trans                            &trans  &trans                          &trans  &trans              &trans              &trans                                      &mo 3   &trans               &trans               &trans  &trans                          &trans  &trans
+&trans                            &trans  &hm LG(W) W                     &trans  &hm LG(R) R         &hm LG(T) T         &trans                                      &trans  &trans               &trans               &trans  &trans                          &trans  &trans
+&hm LS(LA(LC(LEFT_COMMAND))) ESC  &trans  &hm LS(LA(LC(LEFT_COMMAND))) S  &trans  &hm LEFT_COMMAND F  &hm LEFT_CONTROL G  &trans  &trans  &trans      &trans  &trans  &trans  &hm RIGHT_CONTROL H  &hm RIGHT_COMMAND J  &trans  &hm LS(LC(LA(LEFT_COMMAND))) L  &trans  &trans
+&trans                            &trans  &trans                          &trans  &trans              &trans                              &trans      &trans                  &trans               &trans               &trans  &trans                          &trans  &trans
+&trans                            &trans  &trans                          &trans  &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                       &trans               &trans  &trans                          &trans  &trans
             >;
         };
 
