@@ -81,11 +81,11 @@
 
         macos {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                &mo 3                 &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                &trans                &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LCMD)))  &trans  &trans                    &trans                &trans  &kp LS(LA(LC(LCMD)))  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                &trans                    &trans                                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans                &trans  &kp LS(LC(LA(LCMD)))      &kp LS(LA(LC(LCMD)))  &trans  &trans                        &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                  &mo 3                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                  &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LCMD)))  &trans    &trans                    &trans                &trans  &kp LS(LA(LC(LCMD)))  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans                    &trans                                              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans                &kp LCMD  &kp LS(LC(LA(LCMD)))      &kp LS(LA(LC(LCMD)))  &trans  &trans                        &trans  &trans  &trans  &trans  &trans
             >;
         };
 
