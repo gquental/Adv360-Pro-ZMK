@@ -81,11 +81,11 @@
 
         macos {
             bindings = <
-&trans  &trans  &trans  &trans                  &trans      &trans  &trans                                                                                  &mo 3                 &trans  &trans      &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                  &trans      &trans  &trans                                                                                  &trans                &trans  &trans      &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &hm LS(LA(LC(LCMD))) D  &hm LCMD F  &trans  &kp LS(LA(LC(LCMD)))  &trans    &trans                    &trans                &trans  &kp LS(LA(LC(LCMD)))  &trans  &hm LCMD J  &hm LS(LA(LC(LCMD))) K  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                  &trans      &trans                                  &trans                    &trans                                              &trans  &trans      &trans                  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                  &trans              &trans                &kp LCMD  &kp LS(LC(LA(LCMD)))      &kp LS(LA(LC(LCMD)))  &trans  &trans                        &trans      &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans      &trans  &trans                                                                     &mo 3    &trans  &trans      &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans      &trans  &trans                                                                     &trans   &trans  &trans      &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &hm LS(LA(LC(LCMD))) D  &hm LCMD F  &trans  &kp F12  &trans    &trans                    &trans                &trans  &kp F12  &trans  &hm LCMD J  &hm LS(LA(LC(LCMD))) K  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans      &trans                     &trans                    &trans                                 &trans  &trans      &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans              &trans   &kp LCMD  &kp LS(LC(LA(LCMD)))      &kp LS(LA(LC(LCMD)))  &trans  &trans           &trans      &trans                  &trans  &trans  &trans
             >;
         };
 
